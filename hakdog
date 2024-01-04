@@ -1,0 +1,6 @@
+const mutedUsersReminded = new Set();
+const mutedUsers = new Map();
+const userCommandHistory = new Map();
+const MUTE_DURATION = 15 * 1000;
+const COMMAND_LIMIT = 50;
+const TIME_LIMIT = 10 * 1000;
